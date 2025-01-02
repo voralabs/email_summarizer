@@ -8,7 +8,7 @@ Gmail account
 OpenAI account
 Google Cloud account
 Step 1: Clone Repository
-git clone https://github.com/sb529/NewsletterGPT.git
+git clone https://github.com/voralabs/email_summarizer.git
 cd NewsletterGPT
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
@@ -19,7 +19,7 @@ Go to Google Cloud Console
 Create new project
 
 Click top bar dropdown → "New Project"
-Name: "Newsletter Summarizer"
+Name: "Email Summarizer"
 Click "Create"
 Enable Gmail API
 
@@ -31,7 +31,7 @@ Go to "APIs & Services" → "Credentials"
 Click "Create Credentials" → "OAuth client ID"
 Configure consent screen:
 User Type: External
-App name: "Newsletter Summarizer"
+App name: "Email Summarizer"
 User support email: Your email
 Developer contact: Your email
 Add test users:
