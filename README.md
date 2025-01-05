@@ -2,29 +2,51 @@
 AI-powered email summarizer that reads your specific emails and sends concise summaries.
 
 Setup Guide
+
+
 Prerequisites
+
 Python 3.8+
+
 Gmail account
+
 OpenAI account
+
 Google Cloud account
+
 Step 1: Clone Repository
+
 git clone https://github.com/voralabs/email_summarizer.git
+
 cd NewsletterGPT
+
 python -m venv .venv
+
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
+
 pip install -r requirements.txt
+
+
 Step 2: Google Cloud Setup
+
 Go to Google Cloud Console
+
 
 Create new project
 
 Click top bar dropdown → "New Project"
+
 Name: "Email Summarizer"
+
 Click "Create"
+
 Enable Gmail API
 
+
 Search "Gmail API" in top search bar
+
 Click "Enable API"
+
 Create OAuth Credentials
 
 Go to "APIs & Services" → "Credentials"
