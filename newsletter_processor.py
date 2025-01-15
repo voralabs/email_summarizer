@@ -65,7 +65,7 @@ def summarize_with_gpt(content):
     truncated_content = content[:4000] + "..." if len(content) > 4000 else content
     
     completion = openai.chat.completions.create(
-        model="gpt-4",
+        model="gpt-4o-mini",
         messages=[
             {"role": "system", "content": "Summarize the following newsletter content in 2-3 concise bullet points."},
             {"role": "user", "content": truncated_content}
